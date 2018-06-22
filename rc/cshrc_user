@@ -1,0 +1,16 @@
+#user cshrc
+setenv LC_ALL en_US
+set autolist
+
+set prompt = "%B$user%b@%m:%B%/%b> "
+
+#alias cd 'cd \!*;echo "\033]0;$PWD\007";ls'
+alias cd 'cd \!*;echo $PWD;ls'
+
+alias la "ls -a"
+alias ll "ls -al"
+
+alias matlab "/eda/MATLAB/R2017a/bin/matlab"
+
+setenv PATH ${PATH}:/eda/Medici/bin
+
